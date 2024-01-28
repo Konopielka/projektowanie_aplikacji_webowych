@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zeszyt</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form id="form" action="/test">
+    <label for="email-input">Email</label>
+    <input type="text" id="email-input">
+    <span class="error" id="email-error" hidden>Adres email powinien mieć minimum 5 znaków</span>
+
+    <label for="password-input">Hasło</label>
+    <input type="password" id="password-input">
+    <span class="error" id="pass-error" hidden>haslo powinien mieć minimum 8 znaków</span>
+
+    <button type="submit">Zapisz</button>
+</form>
+
+</body>
+</html>
