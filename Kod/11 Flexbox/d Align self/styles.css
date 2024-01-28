@@ -1,0 +1,19 @@
+.container{
+display: flex;
+flex-direction: row;
+height: 400px;
+background-color: grey;
+justify-content: space-evenly;
+align-items: flex-end;
+
+}
+.box{
+width: 100px;
+height: 100px;
+background-color: rgb(255,218,185);
+margin: 5px;
+}
+
+.self{
+align-self: flex-start;
+}
